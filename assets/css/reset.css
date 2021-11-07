@@ -1,0 +1,32 @@
+*,
+*:after,
+*:before{
+	margin:0;
+	padding:0;
+    text-decoration: none;
+	vertical-align:baseline;
+	list-style:none;
+	border:0;
+}
+
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+dl, ol, ul  {
+	list-style: none;
+	margin-bottom: inherit !important;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+	color: inherit !important;
+}
+
+a:hover{
+	color: inherit !important;
+    text-decoration: unset !important;
+}
